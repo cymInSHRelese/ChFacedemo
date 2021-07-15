@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CB12F6F269593E800F51670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB12F6E269593E800F51670 /* AppDelegate.m */; };
+		4CB12F72269593E800F51670 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB12F71269593E800F51670 /* SceneDelegate.m */; };
+		4CB12F75269593E800F51670 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB12F74269593E800F51670 /* ViewController.m */; };
+		4CB12F78269593E800F51670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB12F76269593E800F51670 /* Main.storyboard */; };
+		4CB12F7A269593FC00F51670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB12F79269593FC00F51670 /* Assets.xcassets */; };
+		4CB12F7D269593FC00F51670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB12F7B269593FC00F51670 /* LaunchScreen.storyboard */; };
+		4CB12F80269593FC00F51670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB12F7F269593FC00F51670 /* main.m */; };
+		4CB12F8A269593FC00F51670 /* CymFaceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB12F89269593FC00F51670 /* CymFaceDemoTests.m */; };
+		4CB12F95269593FC00F51670 /* CymFaceDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB12F94269593FC00F51670 /* CymFaceDemoUITests.m */; };
+		4CB12FB42695B0E500F51670 /* ArcSoftFaceEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB12FB32695B0E400F51670 /* ArcSoftFaceEngine.framework */; };
+		4CB12FB52695B0E500F51670 /* ArcSoftFaceEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB12FB32695B0E400F51670 /* ArcSoftFaceEngine.framework */; platformFilter = ios; };
+		4CB12FB62695B0E500F51670 /* ArcSoftFaceEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB12FB32695B0E400F51670 /* ArcSoftFaceEngine.framework */; platformFilter = ios; };
+		4CB12FBB2695B0ED00F51670 /* ArcSoftFaceEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB12FB32695B0E400F51670 /* ArcSoftFaceEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4CE2140B269D31C400AAD4D2 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE213EB269D31C400AAD4D2 /* Utility.m */; };
+		4CE2140C269D31C400AAD4D2 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE213EB269D31C400AAD4D2 /* Utility.m */; };
+		4CE2140D269D31C400AAD4D2 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE213EB269D31C400AAD4D2 /* Utility.m */; };
+		4CE2140E269D31C400AAD4D2 /* GLKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE213ED269D31C400AAD4D2 /* GLKitView.m */; };
+		4CE2140F269D31C400AAD4D2 /* GLKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE213ED269D31C400AAD4D2 /* GLKitView.m */; };
+		4CE21410269D31C400AAD4D2 /* GLKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE213ED269D31C400AAD4D2 /* GLKitView.m */; };
+		4CE21411269D31C400AAD4D2 /* ColorFormatUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE213EE269D31C400AAD4D2 /* ColorFormatUtil.m */; };
+		4CE21412269D31C400AAD4D2 /* ColorFormatUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE213EE269D31C400AAD4D2 /* ColorFormatUtil.m */; };
+		4CE21413269D31C400AAD4D2 /* ColorFormatUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE213EE269D31C400AAD4D2 /* ColorFormatUtil.m */; };
+		4CE21414269D31C400AAD4D2 /* ASFVideoProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CE213F1269D31C400AAD4D2 /* ASFVideoProcessor.mm */; };
+		4CE21415269D31C400AAD4D2 /* ASFVideoProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CE213F1269D31C400AAD4D2 /* ASFVideoProcessor.mm */; };
+		4CE21416269D31C400AAD4D2 /* ASFVideoProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CE213F1269D31C400AAD4D2 /* ASFVideoProcessor.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CB12F86269593FC00F51670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB12F62269593E800F51670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB12F69269593E800F51670;
+			remoteInfo = CymFaceDemo;
+		};
+		4CB12F91269593FC00F51670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB12F62269593E800F51670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB12F69269593E800F51670;
+			remoteInfo = CymFaceDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CB12FAD2695A80800F51670 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4CB12FBB2695B0ED00F51670 /* ArcSoftFaceEngine.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4CB12F6A269593E800F51670 /* CymFaceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CymFaceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB12F6D269593E800F51670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CB12F6E269593E800F51670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CB12F70269593E800F51670 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4CB12F71269593E800F51670 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4CB12F73269593E800F51670 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CB12F74269593E800F51670 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CB12F77269593E800F51670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CB12F79269593FC00F51670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CB12F7C269593FC00F51670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CB12F7E269593FC00F51670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB12F7F269593FC00F51670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CB12F85269593FC00F51670 /* CymFaceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CymFaceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB12F89269593FC00F51670 /* CymFaceDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CymFaceDemoTests.m; sourceTree = "<group>"; };
+		4CB12F8B269593FC00F51670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB12F90269593FC00F51670 /* CymFaceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CymFaceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB12F94269593FC00F51670 /* CymFaceDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CymFaceDemoUITests.m; sourceTree = "<group>"; };
+		4CB12F96269593FC00F51670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB12FB32695B0E400F51670 /* ArcSoftFaceEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ArcSoftFaceEngine.framework; sourceTree = "<group>"; };
+		4CB12FBF2695B1BF00F51670 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		4CE213EA269D31C400AAD4D2 /* GLKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLKitView.h; sourceTree = "<group>"; };
+		4CE213EB269D31C400AAD4D2 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		4CE213EC269D31C400AAD4D2 /* ColorFormatUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorFormatUtil.h; sourceTree = "<group>"; };
+		4CE213ED269D31C400AAD4D2 /* GLKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLKitView.m; sourceTree = "<group>"; };
+		4CE213EE269D31C400AAD4D2 /* ColorFormatUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorFormatUtil.m; sourceTree = "<group>"; };
+		4CE213EF269D31C400AAD4D2 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		4CE213F1269D31C400AAD4D2 /* ASFVideoProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASFVideoProcessor.mm; sourceTree = "<group>"; };
+		4CE213F2269D31C400AAD4D2 /* ASFVideoProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFVideoProcessor.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB12F67269593E800F51670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB12FB42695B0E500F51670 /* ArcSoftFaceEngine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB12F82269593FC00F51670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB12FB52695B0E500F51670 /* ArcSoftFaceEngine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB12F8D269593FC00F51670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB12FB62695B0E500F51670 /* ArcSoftFaceEngine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CB12F61269593E800F51670 = {
+			isa = PBXGroup;
+			children = (
+				4CB12FB32695B0E400F51670 /* ArcSoftFaceEngine.framework */,
+				4CB12F6C269593E800F51670 /* CymFaceDemo */,
+				4CB12F88269593FC00F51670 /* CymFaceDemoTests */,
+				4CB12F93269593FC00F51670 /* CymFaceDemoUITests */,
+				4CB12F6B269593E800F51670 /* Products */,
+				4CB12FBE2695B1BF00F51670 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB12F6B269593E800F51670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB12F6A269593E800F51670 /* CymFaceDemo.app */,
+				4CB12F85269593FC00F51670 /* CymFaceDemoTests.xctest */,
+				4CB12F90269593FC00F51670 /* CymFaceDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB12F6C269593E800F51670 /* CymFaceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4CE213D7269D31C400AAD4D2 /* faceCamra */,
+				4CB12F6D269593E800F51670 /* AppDelegate.h */,
+				4CB12F6E269593E800F51670 /* AppDelegate.m */,
+				4CB12F70269593E800F51670 /* SceneDelegate.h */,
+				4CB12F71269593E800F51670 /* SceneDelegate.m */,
+				4CB12F73269593E800F51670 /* ViewController.h */,
+				4CB12F74269593E800F51670 /* ViewController.m */,
+				4CB12F76269593E800F51670 /* Main.storyboard */,
+				4CB12F79269593FC00F51670 /* Assets.xcassets */,
+				4CB12F7B269593FC00F51670 /* LaunchScreen.storyboard */,
+				4CB12F7E269593FC00F51670 /* Info.plist */,
+				4CB12F7F269593FC00F51670 /* main.m */,
+			);
+			path = CymFaceDemo;
+			sourceTree = "<group>";
+		};
+		4CB12F88269593FC00F51670 /* CymFaceDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB12F89269593FC00F51670 /* CymFaceDemoTests.m */,
+				4CB12F8B269593FC00F51670 /* Info.plist */,
+			);
+			path = CymFaceDemoTests;
+			sourceTree = "<group>";
+		};
+		4CB12F93269593FC00F51670 /* CymFaceDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB12F94269593FC00F51670 /* CymFaceDemoUITests.m */,
+				4CB12F96269593FC00F51670 /* Info.plist */,
+			);
+			path = CymFaceDemoUITests;
+			sourceTree = "<group>";
+		};
+		4CB12FBE2695B1BF00F51670 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CB12FBF2695B1BF00F51670 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CE213D7269D31C400AAD4D2 /* faceCamra */ = {
+			isa = PBXGroup;
+			children = (
+				4CE213E9269D31C400AAD4D2 /* util */,
+				4CE213F0269D31C400AAD4D2 /* engine */,
+			);
+			path = faceCamra;
+			sourceTree = "<group>";
+		};
+		4CE213E9269D31C400AAD4D2 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				4CE213EA269D31C400AAD4D2 /* GLKitView.h */,
+				4CE213ED269D31C400AAD4D2 /* GLKitView.m */,
+				4CE213EF269D31C400AAD4D2 /* Utility.h */,
+				4CE213EB269D31C400AAD4D2 /* Utility.m */,
+				4CE213EC269D31C400AAD4D2 /* ColorFormatUtil.h */,
+				4CE213EE269D31C400AAD4D2 /* ColorFormatUtil.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		4CE213F0269D31C400AAD4D2 /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				4CE213F2269D31C400AAD4D2 /* ASFVideoProcessor.h */,
+				4CE213F1269D31C400AAD4D2 /* ASFVideoProcessor.mm */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB12F69269593E800F51670 /* CymFaceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB12F99269593FC00F51670 /* Build configuration list for PBXNativeTarget "CymFaceDemo" */;
+			buildPhases = (
+				4CB12F66269593E800F51670 /* Sources */,
+				4CB12F67269593E800F51670 /* Frameworks */,
+				4CB12F68269593E800F51670 /* Resources */,
+				4CB12FAD2695A80800F51670 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CymFaceDemo;
+			productName = CymFaceDemo;
+			productReference = 4CB12F6A269593E800F51670 /* CymFaceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CB12F84269593FC00F51670 /* CymFaceDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB12F9C269593FC00F51670 /* Build configuration list for PBXNativeTarget "CymFaceDemoTests" */;
+			buildPhases = (
+				4CB12F81269593FC00F51670 /* Sources */,
+				4CB12F82269593FC00F51670 /* Frameworks */,
+				4CB12F83269593FC00F51670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB12F87269593FC00F51670 /* PBXTargetDependency */,
+			);
+			name = CymFaceDemoTests;
+			productName = CymFaceDemoTests;
+			productReference = 4CB12F85269593FC00F51670 /* CymFaceDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CB12F8F269593FC00F51670 /* CymFaceDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB12F9F269593FC00F51670 /* Build configuration list for PBXNativeTarget "CymFaceDemoUITests" */;
+			buildPhases = (
+				4CB12F8C269593FC00F51670 /* Sources */,
+				4CB12F8D269593FC00F51670 /* Frameworks */,
+				4CB12F8E269593FC00F51670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB12F92269593FC00F51670 /* PBXTargetDependency */,
+			);
+			name = CymFaceDemoUITests;
+			productName = CymFaceDemoUITests;
+			productReference = 4CB12F90269593FC00F51670 /* CymFaceDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB12F62269593E800F51670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4CB12F69269593E800F51670 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4CB12F84269593FC00F51670 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4CB12F69269593E800F51670;
+					};
+					4CB12F8F269593FC00F51670 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4CB12F69269593E800F51670;
+					};
+				};
+			};
+			buildConfigurationList = 4CB12F65269593E800F51670 /* Build configuration list for PBXProject "CymFaceDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CB12F61269593E800F51670;
+			productRefGroup = 4CB12F6B269593E800F51670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB12F69269593E800F51670 /* CymFaceDemo */,
+				4CB12F84269593FC00F51670 /* CymFaceDemoTests */,
+				4CB12F8F269593FC00F51670 /* CymFaceDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB12F68269593E800F51670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB12F7D269593FC00F51670 /* LaunchScreen.storyboard in Resources */,
+				4CB12F7A269593FC00F51670 /* Assets.xcassets in Resources */,
+				4CB12F78269593E800F51670 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB12F83269593FC00F51670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB12F8E269593FC00F51670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB12F66269593E800F51670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB12F75269593E800F51670 /* ViewController.m in Sources */,
+				4CB12F6F269593E800F51670 /* AppDelegate.m in Sources */,
+				4CE2140E269D31C400AAD4D2 /* GLKitView.m in Sources */,
+				4CE21411269D31C400AAD4D2 /* ColorFormatUtil.m in Sources */,
+				4CB12F80269593FC00F51670 /* main.m in Sources */,
+				4CE21414269D31C400AAD4D2 /* ASFVideoProcessor.mm in Sources */,
+				4CB12F72269593E800F51670 /* SceneDelegate.m in Sources */,
+				4CE2140B269D31C400AAD4D2 /* Utility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB12F81269593FC00F51670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB12F8A269593FC00F51670 /* CymFaceDemoTests.m in Sources */,
+				4CE21412269D31C400AAD4D2 /* ColorFormatUtil.m in Sources */,
+				4CE2140C269D31C400AAD4D2 /* Utility.m in Sources */,
+				4CE2140F269D31C400AAD4D2 /* GLKitView.m in Sources */,
+				4CE21415269D31C400AAD4D2 /* ASFVideoProcessor.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB12F8C269593FC00F51670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB12F95269593FC00F51670 /* CymFaceDemoUITests.m in Sources */,
+				4CE21413269D31C400AAD4D2 /* ColorFormatUtil.m in Sources */,
+				4CE2140D269D31C400AAD4D2 /* Utility.m in Sources */,
+				4CE21410269D31C400AAD4D2 /* GLKitView.m in Sources */,
+				4CE21416269D31C400AAD4D2 /* ASFVideoProcessor.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CB12F87269593FC00F51670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CB12F69269593E800F51670 /* CymFaceDemo */;
+			targetProxy = 4CB12F86269593FC00F51670 /* PBXContainerItemProxy */;
+		};
+		4CB12F92269593FC00F51670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CB12F69269593E800F51670 /* CymFaceDemo */;
+			targetProxy = 4CB12F91269593FC00F51670 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CB12F76269593E800F51670 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB12F77269593E800F51670 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CB12F7B269593FC00F51670 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB12F7C269593FC00F51670 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CB12F97269593FC00F51670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CB12F98269593FC00F51670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB12F9A269593FC00F51670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47QX444MCT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CymFaceDemo",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CymFaceDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cym.CymFaceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_SWIFT_SYMBOLS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4CB12F9B269593FC00F51670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47QX444MCT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CymFaceDemo",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CymFaceDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cym.CymFaceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_SWIFT_SYMBOLS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4CB12F9D269593FC00F51670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47QX444MCT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CymFaceDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cym.CymFaceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CymFaceDemo.app/CymFaceDemo";
+			};
+			name = Debug;
+		};
+		4CB12F9E269593FC00F51670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47QX444MCT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CymFaceDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cym.CymFaceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CymFaceDemo.app/CymFaceDemo";
+			};
+			name = Release;
+		};
+		4CB12FA0269593FC00F51670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47QX444MCT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CymFaceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cym.CymFaceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CymFaceDemo;
+			};
+			name = Debug;
+		};
+		4CB12FA1269593FC00F51670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47QX444MCT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CymFaceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cym.CymFaceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CymFaceDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB12F65269593E800F51670 /* Build configuration list for PBXProject "CymFaceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB12F97269593FC00F51670 /* Debug */,
+				4CB12F98269593FC00F51670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB12F99269593FC00F51670 /* Build configuration list for PBXNativeTarget "CymFaceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB12F9A269593FC00F51670 /* Debug */,
+				4CB12F9B269593FC00F51670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB12F9C269593FC00F51670 /* Build configuration list for PBXNativeTarget "CymFaceDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB12F9D269593FC00F51670 /* Debug */,
+				4CB12F9E269593FC00F51670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB12F9F269593FC00F51670 /* Build configuration list for PBXNativeTarget "CymFaceDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB12FA0269593FC00F51670 /* Debug */,
+				4CB12FA1269593FC00F51670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB12F62269593E800F51670 /* Project object */;
+}

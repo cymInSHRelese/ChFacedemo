@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H1217" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AFRCDPerson" representedClassName="AFRCDPerson" syncable="YES" codeGenerationType="class">
+        <attribute name="faceFeatureData" optional="YES" attributeType="Binary"/>
+        <attribute name="faceID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="faceThumb" optional="YES" attributeType="Binary"/>
+        <attribute name="faceThumbHeight" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="faceThumbWidth" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="personID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="AFRCDVersion" representedClassName="AFRCDVersion" syncable="YES" codeGenerationType="class">
+        <attribute name="frmodelversion" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="version" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="AFRCDPerson" positionX="-27" positionY="18" width="128" height="148"/>
+        <element name="AFRCDVersion" positionX="27" positionY="108" width="128" height="73"/>
+    </elements>
+</model>
